@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test">
+    <listeners>
+        <listener class-name="Day_46.MyTestListeners"/>
+    </listeners>
+
+
+
+
+
+    <test name="Test">
+        <classes>
+            <class name="Day_46.listeners"></class>
+        </classes>
+    </test>
+</suite>

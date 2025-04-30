@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login">
+    <listeners>
+        <listener class-name="Day_47.Login_Extent_report"/>
+    </listeners>
+
+
+    <test name="Sanity_Login">
+        <classes>
+            <class name="Day_47.LoginTest"/>
+        </classes>
+    </test>
+</suite>

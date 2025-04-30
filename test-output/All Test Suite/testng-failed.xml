@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/ADMIN/IdeaProjects/Traveluro/src/test/java/Traveluro/Login_Sanity_testng.java(failed)">
+    <classes>
+      <class name="Traveluro.Login_Sanity_testng">
+        <methods>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Traveluro.Login_Sanity_testng -->
+    </classes>
+  </test> <!-- C:/Users/ADMIN/IdeaProjects/Traveluro/src/test/java/Traveluro/Login_Sanity_testng.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

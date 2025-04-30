@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="grouping">
+    <test name="grouptest">
+        <groups>
+            <run>
+                <include name="sanity"/>
+                <include name="smoke"/>
+                <exclude name="regression">
+                </exclude>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="TestNG_Practice.logingrouping"/>
+            <class name="TestNG_Practice.payment_grouping"/>
+            <class name="TestNG_Practice.singup_grouping">
+            </class>
+        </classes>
+    </test>
+</suite>
