@@ -3,40 +3,28 @@
 <suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Traveluro(failed)">
     <classes>
-      <class name="TestNG_Practice.Hard_assertions">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- TestNG_Practice.Hard_assertions -->
       <class name="TestNG_Practice.assertions">
         <methods>
           <include name="testTitle"/>
         </methods>
       </class> <!-- TestNG_Practice.assertions -->
-      <class name="Day_45.data_provider_demo">
-        <methods>
-          <include name="finalstep"/>
-          <include name="login" invocation-numbers="0 1"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- Day_45.data_provider_demo -->
-      <class name="Day_46.listeners">
-        <methods>
-          <include name="logo"/>
-          <include name="setup"/>
-          <include name="url"/>
-          <include name="title"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- Day_46.listeners -->
       <class name="TestNG_Practice.Dependecy_Methods">
         <methods>
-          <include name="search"/>
           <include name="logout"/>
+          <include name="search"/>
           <include name="login"/>
           <include name="advance_search"/>
         </methods>
       </class> <!-- TestNG_Practice.Dependecy_Methods -->
+      <class name="Day_46.listeners">
+        <methods>
+          <include name="logo"/>
+          <include name="setup"/>
+          <include name="title"/>
+          <include name="url"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Day_46.listeners -->
       <class name="Day_45.param_test">
         <methods>
           <include name="setup"/>
@@ -51,6 +39,33 @@
           <include name="softassertions"/>
         </methods>
       </class> <!-- TestNG_Practice.HardvsSoft_asserations -->
+      <class name="Day_47.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Day_47.LoginTest -->
+      <class name="TestNG_Practice.Hard_assertions">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- TestNG_Practice.Hard_assertions -->
+      <class name="Day_45.data_provider_demo">
+        <methods>
+          <include name="finalstep"/>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Day_45.data_provider_demo -->
+      <class name="Traveluro.Login_Sanity_testng">
+        <methods>
+          <include name="logout"/>
+          <include name="title"/>
+          <include name="login"/>
+          <include name="open_website"/>
+        </methods>
+      </class> <!-- Traveluro.Login_Sanity_testng -->
     </classes>
   </test> <!-- Traveluro(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
