@@ -37,7 +37,7 @@ public class handleBrokenLink {
                 URL linkUrl = new URL(hrefValue);// convert href value from string to url
 
                 HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection(); //open connection to the server
-                connection.connect(); //connet to the server and send request to the server
+                connection.connect(); //connect to the server and send request to the server
 
                 if (connection.getResponseCode() >= 400) {
                     System.out.println( hrefValue + "==> + Broken link");
